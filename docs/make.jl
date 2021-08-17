@@ -1,27 +1,26 @@
 using Documenter
-using BaremetalPi
+using GPIOJetsu
 
 makedocs(
-    modules = [BaremetalPi],
+    modules = [GPIOJetsu],
     format = Documenter.HTML(
         prettyurls = !("local" in ARGS),
-        canonical = "https://ronisbr.github.io/BaremetalPi.jl/stable/",
+        canonical = "https://",
     ),
-    sitename = "BaremetalPi",
-    authors = "Ronan Arraes Jardim Chagas",
+    sitename = "GPIOJetsu",
+    authors = "Andrew McConnell",
     pages = [
         "Home"            => "index.md",
         "GPIO"            => "man/gpio.md",
         "SPI"             => "man/spi.md",
         "Examples"        => Any[
-            "LED"         => "man/examples/led.md",
-            "Temperature" => "man/examples/temperature.md",
+            "LED"         => "man/examples/led.md",  
         ],
         "Library"  => "lib/library.md",
     ]
 )
 
 deploydocs(
-    repo = "github.com/ronisbr/BaremetalPi.jl.git",
+    repo = "github.com/andrewmcconnell/GPIOJetsu.jl.git",
     target = "build",
 )
