@@ -55,8 +55,8 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: doctest
-            using BaremetalPi
-            doctest(BaremetalPi)'
+            using GPIOJetsu
+            doctest(GPIOJetsu)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
