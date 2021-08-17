@@ -26,8 +26,10 @@ The following peripherals are currently supported:
 
 ## Installation
 
-```julia-repl
-julia> using Pkg
-julia> Pkg.dev("https://github.com/ronisbr/BaremetalPi.jl")
+```
+
+Not ready for installation.
+
+
 ```
 
