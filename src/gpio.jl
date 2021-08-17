@@ -3,7 +3,7 @@
 # Description
 # ==============================================================================
 #
-#     Functions to manage the GPIOs.
+#     Functions to manage the Jetson GPIOs.
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
