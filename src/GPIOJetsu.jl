@@ -1,4 +1,4 @@
-module BaremetalPi
+module GPIOJetsu
 
 using Mmap
 
